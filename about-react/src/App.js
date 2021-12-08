@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ImportConponent from './Introductory/R003_ImportConponent';
+import LifecycleEx from './Introductory/R008_LifecycleEx';
 
 // component
 function App() {
@@ -8,7 +8,9 @@ function App() {
     <div>
       <h1>Start React 200 !</h1>
       <p>HTML 적용하기</p>
-      <ImportConponent></ImportConponent>
+      <LifecycleEx 
+        prop_value = 'FromApp.js'
+      />
     </div>
   );
 }
